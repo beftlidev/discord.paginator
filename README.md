@@ -29,6 +29,7 @@ Discord.Paginator is out of date! Remember to use "npm update discord.paginator"
 ## <img src="https://cdn.discordapp.com/emojis/1203381492508659773.png" alt="Use logo" width="17"/> Example Interaction Usage
 - Code:
 ```js
+const { Paginator } = require("discord.paginator")
 const { SlashCommandBuilder } = require("@discordjs/builders");
 
 module.exports = {
@@ -91,7 +92,7 @@ client.on("messageCreate", async(message) => {
 
 })
 ```
-## <img src="https://cdn.discordapp.com/emojis/1221761381942956033.png" alt="Kick logo" width="17"/> All Customizability
+## <img src="https://cdn.discordapp.com/emojis/1203381492508659773.png" alt="Kick logo" width="17"/> All Customizability
 - Code:
 ```js
 const { Paginator } = require("discord.paginator")

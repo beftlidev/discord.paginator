@@ -1,0 +1,21 @@
+{
+    "name": "discord.paginator",
+    "version": "0.0.1",
+    "description": "The best module to add page embed to your Discord bot!",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "discord.paginator", "embed paginator", "paginator", "discord", "embed", "customizable"
+    ],
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "author": "Beftli",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/beftlidev/discord.paginator/issues"
+    },
+    "homepage": "https://github.com/beftlidev/discord.paginator/#readme"
+  }

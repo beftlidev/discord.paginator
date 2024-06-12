@@ -1,11 +1,11 @@
-# 📖 Discord.Paginator - Paginated Embed Module
+# 📖 Paginated.Embed - Discord Paginated Embed Module
 You create a paginated embed.
 # 🔧 Installation
-- You can download `discord.paginator` in powershell with this code.
+- You can download `paginated.embed` in powershell with this code.
 ```js
-npm install discord.paginator
+npm install paginated.embed
 ```
-- For Discord.Paginator to work, you need to use the discord.js module above @14.
+- For Paginated.Embed to work, you need to use the discord.js module above @14.
 ```sheel
 npm upgrade discord.js
 ```
@@ -14,7 +14,7 @@ Below are examples for you to create a paginated embed. You cannot make customiz
 ## <img src="https://cdn.discordapp.com/emojis/1217435722789683241.png" alt="Update logo" width="17"/> Check Update
 - Code: 
 ```js
-const { checkUpdate } = require("discord.paginator")
+const { checkUpdate } = require("paginated.embed")
 
 client.on("ready", async() => {
 
@@ -24,12 +24,12 @@ client.on("ready", async() => {
 ```
 - Result if the module is out of date (Automatically logs to the console.):
 ```shell
-Discord.Paginator is out of date! Remember to use "npm update discord.paginator" ( Old Version -> New Version ) in powershell to take advantage of the new features.
+Paginated.Embed is out of date! Remember to use "npm update Paginated.Embed" ( Old Version -> New Version ) in powershell to take advantage of the new features.
 ```
 ## <img src="https://cdn.discordapp.com/emojis/1203381492508659773.png" alt="Use logo" width="17"/> Example Interaction Usage
 - Code:
 ```js
-const { Paginator } = require("discord.paginator")
+const { Paginator } = require("paginated.embed")
 const { SlashCommandBuilder } = require("@discordjs/builders");
 
 module.exports = {
@@ -64,7 +64,7 @@ module.exports = {
 ## <img src="https://cdn.discordapp.com/emojis/1203381492508659773.png" alt="Use logo" width="17"/> Example Message Usage
 - Code:
 ```js
-const { Paginator } = require("discord.paginator")
+const { Paginator } = require("paginated.embed")
 
 client.on("messageCreate", async(message) => {
 
@@ -95,7 +95,7 @@ client.on("messageCreate", async(message) => {
 ## <img src="https://cdn.discordapp.com/emojis/1203381492508659773.png" alt="Kick logo" width="17"/> All Customizability
 - Code:
 ```js
-const { Paginator } = require("discord.paginator")
+const { Paginator } = require("paginated.embed")
 
 client.on("messageCreate", async(message) => {
 
@@ -134,4 +134,4 @@ You can come to our [Discord server](https://discord.gg/TCWbk7zWY5) and get help
 <p align="center"><a href="https://discord.com/users/389071682649849868"><img src="https://lanyard-profile-readme.vercel.app/api/389071682649849868"></a></p>
 
 # 📜 License
-This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/beftlidev/discord.paginator/blob/main/LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/beftlidev/paginated.embed/blob/main/LICENSE) file for details.
